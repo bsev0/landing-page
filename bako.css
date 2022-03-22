@@ -10,3 +10,15 @@
 
 
 
+@font-face {
+    font-family: 'Shelley Script LT Std';
+    src: url('ShelleyLTStd-Script.eot');
+    src: url('ShelleyLTStd-Script.eot?#iefix') format('embedded-opentype'),
+        url('ShelleyLTStd-Script.woff2') format('woff2'),
+        url('ShelleyLTStd-Script.woff') format('woff'),
+        url('ShelleyLTStd-Script.ttf') format('truetype'),
+        url('ShelleyLTStd-Script.svg#ShelleyLTStd-Script') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}

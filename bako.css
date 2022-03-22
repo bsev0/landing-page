@@ -1,5 +1,9 @@
 ul {
     list-style-position: inside;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
         

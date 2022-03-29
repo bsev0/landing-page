@@ -1,3 +1,15 @@
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	}
+
+
+
+
 ul {
     list-style-position: inside;
   width: 100%;
@@ -138,4 +150,10 @@ h2 {
 
 
 
-
+[data-text] {
+	color: transparent;
+	}
+[data-text]::after {
+	content: attr(data-text)
+	}
+	

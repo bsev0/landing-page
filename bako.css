@@ -157,3 +157,19 @@ h2 {
 	content: attr(data-text)
 	}
 	
+	
+	
+	
+	
+	
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li:before
+{
+    content: '\FBA6';
+    margin: 0 1em;    /* any design */
+}
+	
